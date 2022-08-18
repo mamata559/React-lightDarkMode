@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.card-container {
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+  border: solid 1px #000000;
+}
+.button {
+  height: 30px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  border-radius: 8px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.dark-mode {
+  color: #ffffff;
+  background-color: #000000;
+}
+.heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+}
